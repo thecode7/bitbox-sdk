@@ -36,7 +36,7 @@ export class Socket {
       else if (query === "transactions")
         this.socket.on("transactions", (msg: any) => cb(msg))
     } else {
-      let EventSource = require("eventsource")
+      let EventSource = require("react-native-sse")
       let b64 = Buffer.from(JSON.stringify(query)).toString("base64")
       this.socket = new EventSource(`${this.bitsocketURL}/s/${b64}`)
       this.socket.onmessage = (msg: any) => {
