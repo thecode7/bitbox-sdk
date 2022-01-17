@@ -29,7 +29,7 @@
   "homepage": "https://developer.bitcoin.com/bitbox",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bitcoin-com/bitbox-sdk.git"
+    "url": "git+https://github.com/thecode7/bitbox-sdk.git"
   },
   "dependencies": {
     "@bitcoin-dot-com/bitcoincashjs2-lib": "^4.1.0",
