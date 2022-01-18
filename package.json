@@ -21,7 +21,7 @@
   "engines": {
     "node": ">=10.15.3"
   },
-  "main": "index.js",
+  "main": "index.ts",
   "files": [
     "index.ts",
     "lib/"
